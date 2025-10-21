@@ -1,0 +1,88 @@
+{
+  "categories": [
+    { "id": "all", "name": "All", "enabled": true },
+    { "id": "2d-images", "name": "2D Images", "enabled": true },
+    { "id": "direct-prompts", "name": "Direct Prompts", "enabled": true },
+    { "id": "enhanced-prompts", "name": "Enhanced Prompts", "enabled": true }
+  ],
+  "prompts": [
+    {
+      "id": "1",
+      "title": "Arctic Glacier Valley",
+      "prompt": "Grungy analog photo, late 90s/early 2000s style, of the 'arctic avenger' terrorist character model from counter-strike 1.6. he's sitting hunched in an old office chair behind a cluttered desk dominated by a bulky, glowing crt monitor in a dimly lit, messy room. crucially, he is wearing his exact, distinct in-game clothing and gear",
+      "category": "2D Images",
+      "tags": ["arctic", "landscape", "glacier", "valley", "snow"],
+      "model": "Aperture Max",
+      "dimensions": "1684 x 2496",
+      "image": "/lovable-uploads/ad5ffe19-2caf-4f87-85ab-a41b917b0f22.png",
+      "enhanced": true,
+      "rating": 0,
+      "ratingCount": 0
+    },
+    {
+      "id": "2", 
+      "title": "Mountain Forest Scene",
+      "prompt": "Majestic mountain forest with towering pine trees, misty morning atmosphere, golden hour lighting filtering through the canopy, creating dramatic shadows and ethereal beams of light",
+      "category": "Direct Prompts",
+      "tags": ["mountain", "forest", "trees", "misty", "golden hour"],
+      "model": "DALL-E 3",
+      "dimensions": "1024 x 1024",
+      "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=500&h=500&fit=crop",
+      "enhanced": false,
+      "rating": 0,
+      "ratingCount": 0
+    },
+    {
+      "id": "3",
+      "title": "Ocean Sunset Vista", 
+      "prompt": "Spectacular ocean sunset with vibrant orange and pink clouds reflected in calm waters, silhouette of distant islands on the horizon, peaceful and serene atmosphere",
+      "category": "Enhanced Prompts",
+      "tags": ["ocean", "sunset", "clouds", "islands", "peaceful"],
+      "model": "Midjourney v6",
+      "dimensions": "1792 x 1024", 
+      "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500&h=500&fit=crop",
+      "enhanced": true,
+      "rating": 0,
+      "ratingCount": 0
+    },
+    {
+      "id": "4",
+      "title": "Desert Dunes Landscape",
+      "prompt": "Vast desert landscape with rolling sand dunes, dramatic shadows cast by the setting sun, sparse vegetation scattered throughout, endless horizon stretching into the distance",
+      "category": "2D Images", 
+      "tags": ["desert", "dunes", "sand", "sunset", "landscape"],
+      "model": "Stable Diffusion XL",
+      "dimensions": "1024 x 768",
+      "image": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?w=500&h=500&fit=crop",
+      "enhanced": false,
+      "rating": 0,
+      "ratingCount": 0
+    },
+    {
+      "id": "5",
+      "title": "Tropical Waterfall Paradise",
+      "prompt": "Hidden tropical waterfall cascading into a crystal clear pool, surrounded by lush green vegetation, exotic flowers and ferns, rays of sunlight penetrating the jungle canopy",
+      "category": "Enhanced Prompts",
+      "tags": ["tropical", "waterfall", "jungle", "paradise", "crystal"],
+      "model": "Leonardo AI",
+      "dimensions": "896 x 1152",
+      "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=500&h=500&fit=crop", 
+      "enhanced": true,
+      "rating": 0,
+      "ratingCount": 0
+    },
+    {
+      "id": "6",
+      "title": "Urban Cityscape Night",
+      "prompt": "Modern cityscape at night with illuminated skyscrapers, bustling streets with car light trails, neon signs reflecting on wet pavement after rain",
+      "category": "Direct Prompts",
+      "tags": ["urban", "cityscape", "night", "skyscrapers", "neon"],
+      "model": "FLUX Pro",
+      "dimensions": "1344 x 768",
+      "image": "https://images.unsplash.com/photo-1514565131-fce0801e5785?w=500&h=500&fit=crop",
+      "enhanced": false,
+      "rating": 0,
+      "ratingCount": 0
+    }
+  ]
+}
